@@ -30,8 +30,9 @@ It takes in input from users and shows list of article links with a little snipp
 <details>
            <summary>Features</summary>
            <p>1. Allows input like Street and city from users</p>
-            <p>2. Shows amchored article titles from NYT API AND Wikipedia API</p>
+            <p>2. Shows anchored article titles from NYT API AND Wikipedia API</p>
              <p>3. Snippets of article can also be seen below airticle titles</p>
 </details>
 
 ## How to use the application ##
+![Article App](https://github.com/vickystickz/Article-App/tree/main/Assets/images/App_screenshot.png)

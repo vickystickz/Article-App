@@ -218,7 +218,7 @@ input:focus{
 }
 
 .search-panel-container > * {
-    margin-bottom: 4em;
+    margin-bottom: 1.5em;
 } 
 .article-contents {
     padding:0.6em;
@@ -231,7 +231,7 @@ input:focus{
 }
 
 form > * {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 
