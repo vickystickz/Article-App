@@ -36,7 +36,7 @@ It takes in input from users and shows list of article links with a little snipp
 
 ## Link ##
 
-:point_right: [Test Article App](https://vickystickz.github.io/Article-App/)
+:point_right: [View Article App](https://milsatfrontendtask-2.netlify.app)
 
 
 ## Tools used ##
