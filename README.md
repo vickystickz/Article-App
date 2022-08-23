@@ -38,5 +38,5 @@ It takes in input from users and shows list of article links with a little snipp
 
 ## Link ##
 
-[Test Article App](https://vickystickz.github.io/Article-App/)
+:point_right: [Test Article App](https://vickystickz.github.io/Article-App/)
 
