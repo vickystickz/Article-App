@@ -1,6 +1,8 @@
 # Article App #
 Get direct links to articles about your city
 
+![Article App](https://github.com/vickystickz/Article-App/blob/main/Assets/images/App_screenshot.png)
+
 
 ## Project Description ##
 The web application is built to give users direct links to New york times article contents and Wikipedia contents about cities.
@@ -34,5 +36,3 @@ It takes in input from users and shows list of article links with a little snipp
              <p>3. Snippets of article can also be seen below airticle titles</p>
 </details>
 
-## How to use the application ##
-![Article App](https://github.com/vickystickz/Article-App/blob/main/Assets/images/App_screenshot.png)
