@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article App: Get articles about countries</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="popup-message" style="display: none;">
+        <p>View articles about any city or countries</p>
+        <button>Get started</button>
+    </div>
+    <header class="nav-bar" id="nav">
+        <div class="nav-icon"><h2>Articles</h2></div>
+        <ul>
+            <li class="nav-links"><a href="#">About</a></li>
+        </ul>
+    </header>
+    <div class="grid-container content-container">
+        <div class="search-panel-container flexbox">
+            <div class="search-title"><h2>Enter location information</h2></div>             
+            <form id="form-container" class="form-container flexbox">
+                <div class="input-container flexbox">
+                    <label for="city">Street</label>
+                    <input type="text" id="str" value="" />
+                </div>
+                <div class="input-container flexbox">
+                    <label for="country">City</label>
+                    <input type="text" id="city" value="" />
+                </div>
+                <button id="btn">Submit</button>
+            </form>            
+        </div>
+        <div class="main-contents">
+            <div class="header-text">
+                <h2></h2>
+            </div>
+            <div class=" grid-container article-contents">
+                <div class="NYT-articles-content">
+                    <h2>New York Times(NYT) articles</h2>
+                    <ul id="nyt-articles"></ul>
+                </div>
+                <div class="Wiki-articles-content">
+                    <h2>Wikipedia links</h2>
+                    <ul id="wiki-links"></ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <span><p> Copyright 2022.Developed by Victor Ademoyero</p></span>
+    </footer>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

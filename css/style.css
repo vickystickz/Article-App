@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #bbc3cd;
+
+}
+
+
+
+
+/* Layout */
+
+.grid-container{ 
+    display: grid;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    flex: 1;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.search-panel-container {
+    background-color: rgb(227, 199, 142);
+    padding: 2em;
+    margin:2em 1.5em;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+.bgimg {
+    position:fixed;
+    top: 0;
+    width:100%;
+    height: 100%;
+    z-index:-1;
+    opacity:0.8;
+}
+
+
+.main-contents{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top:4em;
+}
+
+.article-contents {
+    grid-template-columns: 1fr 1fr;
+    gap: 8em;
+    padding:3.5em;
+}
+
+
+
+.search-title {
+    text-align: center;
+}
+.form-container {
+    align-items: center;
+}
+
+
+.NYT-articles-content,
+.Wiki-articles-content{
+    background: rgba(54, 38, 38, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.8px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 1.2em; 
+    height: fit-content; 
+
+}
+
+
+.nav-bar{
+    background-color: rgb(227, 199, 142);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em;
+    height: 5rem;
+
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: end;
+    gap: 0.5em;
+}
+
+ul{
+    list-style: none;
+}
+
+.article-contents ul li{
+    padding:0.7em;
+}
+
+
+.article-contents a {
+    font-size: 22px;
+    margin-bottom: 0.6em;
+}
+
+.article-contents p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+
+
+
+/* button */
+
+#btn{
+    padding: 1.5em;
+    width: 40%;
+    font-size: 1em;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background-color: #343148FF;
+    color:  #fff;
+    transition: all .3s;
+}
+
+#btn:hover{
+    background-color: rgb(67, 65, 84);
+    width: 38%;
+    padding: 1.4em;
+}
+
+
+/* text */
+
+
+.search-title h2 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    
+}
+
+.header-text h2 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.input-container {
+    width: 80%;
+}
+
+
+.nav-bar ul li a:hover {
+    background: rgba(85, 64, 95, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );  
+    border-radius: 6px;
+    color: #fff;
+}
+
+.nav-bar ul li a{
+    color: #000;
+    padding:0.7em;
+    transition: all .3s ease-in-out;
+    text-decoration: none; 
+}
+
+.nav-icon h2{
+    font-size: 2em;
+}
+
+
+.nav-bar .icon{
+       display: none; 
+       font-size: 2rem;
+}
+
+label {
+    font-size: 1.3em;
+}
+input {
+    padding:1em;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+    transition:  all .2s;
+}
+
+input:focus{
+    outline-color: rgb(116, 121, 121);
+    box-shadow: 0 0 8px #393a3b;
+}
+
+/* spacing elements */
+
+.input-container  > *{
+    margin-bottom: 0.5em;
+}
+
+.search-panel-container > * {
+    margin-bottom: 4em;
+} 
+.article-contents {
+    padding:0.6em;
+}
+
+
+.NYT-articles-content > *,
+.Wiki-articles-content > *{
+    margin-bottom: 1em;
+}
+
+form > * {
+    margin-bottom: 2em;
+}
+
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3rem;
+    background-color: #343148FF;
+    color: #fff;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .article-contents {
+        grid-template-columns: 1fr;
+    }
+    .content-container {
+        grid-template-columns: 1fr;
+    }
+    .search-panel-container {
+        margin: 1em 0.5em;
+        height: fit-content;
+    }
+    
+    .NYT-articles-content,
+    .Wiki-articles-content{
+        padding: 0.2em;   
+    }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 950px) {
+    .article-contents {
+        grid-template-columns: 1fr;
+    }
+
+    .content-container {
+        grid-template-columns: 1fr;
+    }
+
+    .search-panel-container {
+        margin: 1em 0.5em;
+        height: fit-content;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .nav-bar.responsive {
+        display: relative;
+    }
+
+    .nav-bar.responsive .icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav-bar.responsive ul{
+        float: none;
+        width: 100%;
+        margin-top: 150px;
+        left: 0;
+        display: block;
+        text-align: left;
+
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {}
