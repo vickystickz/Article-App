@@ -35,4 +35,4 @@ It takes in input from users and shows list of article links with a little snipp
 </details>
 
 ## How to use the application ##
-![Article App](https://github.com/vickystickz/Article-App/tree/main/Assets/images/App_screenshot.png)
+![Article App](https://github.com/vickystickz/Article-App/blob/main/Assets/images/App_screenshot.png)
