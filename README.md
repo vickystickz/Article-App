@@ -12,15 +12,13 @@ It takes in input from users and shows list of article links with a little snipp
 * Version 
     * Current Version 
     * Features
-* How to use the application
-    * Launch 
-    * How to enter city information
-    * How to view links from New York Times API 
-    * How to view links from Wikipedia API
 
-* Tools used 
+* link
+
+* Tools used
 
 * Credits
+
 
 ## Version ##
 
@@ -40,3 +38,12 @@ It takes in input from users and shows list of article links with a little snipp
 
 :point_right: [Test Article App](https://vickystickz.github.io/Article-App/)
 
+
+## Tools used ##
+
+*  [Newyork times API](https://developer.nytimes.com/apis)
+*  [Wikipedia API](https://en.wikipedia.org/wiki/API)
+
+## Credits ##
+
+* Udacity, Milsat Technologies
