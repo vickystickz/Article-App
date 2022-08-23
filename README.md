@@ -1,5 +1,5 @@
 # Article App #
-Get direct links to articles about our city
+Get direct links to articles about your city
 
 
 ## Project Description ##
